@@ -1,0 +1,38 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.flexible-items {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.header-part {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.header-part .headings {
+  margin-top: 120px;
+}
+
+.header-part h1 {
+  font-size: 50px;
+  color: rgb(80, 79, 79);
+  font-weight: 800;
+  line-height: 30px;
+}
+
+.header-part span {
+  color: orange;
+}
+
+.header-part .header-image img {
+  width: 100%;
+}
