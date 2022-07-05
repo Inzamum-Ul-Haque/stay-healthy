@@ -19,7 +19,7 @@ body {
 }
 
 .header-part .headings {
-  margin-top: 120px;
+  padding-top: 120px;
 }
 
 .header-part h1 {
@@ -35,4 +35,42 @@ body {
 
 .header-part .header-image img {
   width: 100%;
+}
+
+.btn {
+  padding: 10px 40px;
+  background-image: linear-gradient(tomato, orange);
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+}
+
+.about-me {
+  height: 100vh;
+  background-image: url(./images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.about-me .about-me-img img {
+  height: 540px;
+  width: 400px;
+  padding-left: 25%;
+  padding-top: 20%;
+}
+
+.about-me .about-me-texts {
+  padding-top: 10%;
+}
+
+.about-me .about-me-texts h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(80, 79, 79);
+}
+
+.about-me .about-me-texts a {
+  display: inline-block;
+  margin-top: 10%;
 }
