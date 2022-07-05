@@ -74,3 +74,36 @@ body {
   display: inline-block;
   margin-top: 10%;
 }
+
+.my-recipies h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(80, 79, 79);
+  text-align: center;
+}
+
+.my-recipies #my-recipies-texts {
+  text-align: center;
+}
+
+.my-recipies-card {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.my-recipies .half-width {
+  padding: 2%;
+  margin: 2%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 50px gray;
+}
+
+.my-recipies-card img {
+  width: 100%;
+}
+
+.my-recipies .half-width h5 {
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 5px;
+}
